@@ -1,16 +1,25 @@
 # Deskify Office Supplies Report
+
 A Power BI business intelligence dashboard analyzing office supply sales performance from **January 2009 to December 2012** across customers, products, regions, and shipping modes.
+---
 
-[Product View]
+Product View
 <img width="904" height="479" alt="image" src="https://github.com/user-attachments/assets/d26abab3-5e94-4c7f-b524-4bd6ea2ea4ec" />
-
-[Customer View]
+---
+Customer View
 <img width="896" height="481" alt="image" src="https://github.com/user-attachments/assets/4f673adb-d60b-46e9-acb9-5302a1ef0aa4" />
-
+---
 ## Overview
 
 The Deskify Office Supplies Report is a two-page interactive Power BI dashboard built to help stakeholders monitor profitability and sales trends. It provides a **Customer View** focused on who is buying and a **Product View** focused on what is selling — both filterable by year and product category.
+---
 
+## Built With
+
+- **Power BI Desktop** — Dashboard design and interactivity
+- **DAX** — Calculated measures (revenue, profit margin, totals)
+- **Microsoft Bing Maps** — State-level geographic profit visualization
+---
 ## Key Metrics
 
 | Metric | Customer View | Product View |
@@ -21,7 +30,7 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 | 👥 Total Customers | 789 | 795 |
 | 📊 Profit Margin | 10.8% | 10.3% |
 
-
+---
 ## Insights
 
 ### Top Product Sub-Categories by Profit
@@ -33,9 +42,8 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 | Art | $0.12M |
 | Labels | $0.09M |
 
-**Binders and Paper alone account for over 50% of total profit across all sub-categories.**
-
-
+Binders and Paper alone account for over 50% of total profit across all sub-categories
+---
 ### Profit by Customer Segment
 | Segment | Profit |
 |---|---|
@@ -44,8 +52,8 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 | Small Business | $0.19M |
 | Consumer | $0.17M |
 
-**Corporate is the most valuable segment, generating more than double the profit of the Consumer segment.**
-
+Corporate is the most valuable segment, generating more than double the profit of the Consumer segment.
+---
 ### Profit by Region
 | Region | Profit |
 |---|---|
@@ -55,8 +63,8 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 | Ontario | $110,516 |
 | West | $90,249 |
 
-**The Northwest Territory dominates regional performance, contributing over 37% of total profit.**
-
+The Northwest Territory dominates regional performance, contributing over 37% of total profit.
+---
 
 ### Profit by Product Category
 | Category | Profit |
@@ -78,13 +86,13 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 
 **Regular Air is the dominant shipping method, handling over 68% of all orders.**
 
-
+---
 ### Monthly Profit Trends
 - **Peak months:** January ($174K) and October ($177K)
 - **Lowest month:** August ($81K)
 - Profit generally recovers strongly in Q4 after a mid-year dip
 
-
+---
 ### Top Customers by Profit
 | Customer | Profit |
 |---|---|
@@ -93,7 +101,7 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 | Raymond Book | $18.6K |
 | Logan Haushalter | $19.0K |
 | Rick Wilson | $15.7K |
-
+---
 
 ### Top Products by Profit
 | Product | Profit |
@@ -104,7 +112,7 @@ The Deskify Office Supplies Report is a two-page interactive Power BI dashboard 
 | Panasonic KX T77... | $15K |
 | Fellowes Bases | $14K |
 
-
+---
 ## Dashboard Pages
 
 ### Customer View
@@ -113,6 +121,7 @@ Analyzes profitability from a customer perspective — who is buying, which segm
 ### Product View
 Analyzes profitability from a product perspective — what categories sell best, how products perform month over month, and how orders are distributed across shipping modes.
 
+---
 ## Filters & Interactivity
 
 - **Year:** 2009 | 2010 | 2011 | 2012
@@ -121,13 +130,6 @@ Analyzes profitability from a product perspective — what categories sell best,
 - Toggle between Customer and Product views via top navigation
 
 ---
-
-## Built With
-
-- **Power BI Desktop** — Dashboard design and interactivity
-- **DAX** — Calculated measures (revenue, profit margin, totals)
-- **Microsoft Bing Maps** — State-level geographic profit visualization
-
 
 ## License
 
